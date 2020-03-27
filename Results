@@ -1,0 +1,20 @@
+Score:
+
+
+Rank=1, Name=gbm, Score=0.827 (+/- 0.040)
+Rank=2, Name=svmr0.6, Score=0.826 (+/- 0.034)
+Rank=3, Name=svmr0.5, Score=0.826 (+/- 0.031)
+Rank=4, Name=svmr0.4, Score=0.826 (+/- 0.031)
+Rank=5, Name=svmr0.3, Score=0.825 (+/- 0.032)
+Rank=6, Name=svmp, Score=0.824 (+/- 0.046)
+Rank=7, Name=Catboost, Score=0.824 (+/- 0.038)
+Rank=8, Name=svmr0.9, Score=0.824 (+/- 0.035)
+Rank=9, Name=svmr0.8, Score=0.824 (+/- 0.034)
+Rank=10, Name=svmr0.7, Score=0.824 (+/- 0.034)
+
+
+
+Where gbm = GradientBoostingClassifier (number of trees =100)
+      svmr = SVC with standard kernel
+      svmp = SVC with polynomial kernel
+      Catboost = CatBoostClassifier (number of trees =100)
